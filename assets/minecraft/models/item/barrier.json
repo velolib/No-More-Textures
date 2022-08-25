@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:barrier"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data":707000}, "model":"item/3d/closed_book"},
+        {"predicate": {"custom_model_data":707001}, "model":"item/3d/open_book"}
+    ]
+  }

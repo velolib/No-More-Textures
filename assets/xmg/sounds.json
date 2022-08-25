@@ -1,0 +1,20 @@
+{
+    "mobgame.3s_ascend": {
+        "sounds": [
+            {
+            "name": "xmg:mobgame/3s_ascend",
+            "stream": false
+            }
+        ],
+        "subtitle": "Steve charging up"
+    },
+    "mobgame.ender_scream": {
+        "sounds": [
+            {
+                "name": "xmg:mobgame/ender_scream",
+                "stream": false
+            }
+        ],
+        "subtitle": "Enderman sees you"
+    }
+}
