@@ -16,5 +16,14 @@
             }
         ],
         "subtitle": "Enderman sees you"
+    },
+    "mobgame.20s_blind": {
+        "sounds": [
+            {
+                "name": "xmg:mobgame/20s_blind",
+                "stream": false
+            }
+        ],
+        "subtitle": "Cultist has revealed you"
     }
 }
