@@ -73,17 +73,23 @@ for file in data_src:
                                     xmt_customs[cmdat].append(mc_path.relative_to(xmt.parents[3]))
 
 with open(xmt.parents[3] / 'custompy.md', 'w') as custom: # Write results in file
-    custom.write('## Implemented Codes\n')
+    custom.write('## Textured and Implemented Codes\n')
     for n, k in enumerate([x for x in xmt_customs.keys() if x in xmg_customs], start=1):
         custom.write(f'{n}. {k}: ')
         for x in xmt_customs[k]:
-            custom.write(f'<img src="{x.__str__()}" width="16"/>\n')
+            custom.write(f'<img src="{x.__str__()}"/>\n')
         custom.write('\n')
     custom.write('\n')
     
-    custom.write('## World/Unimplemented Codes\n')
+    custom.write('## Untextured Codes\n')
+    for n, k in enumerate([x for x in xmg_customs if x not in xmt_customs.keys()], start =1):
+        custom.write(f'{n}. {k}\n')
+    custom.write('\n')
+    
+    custom.write('## Unimplemented/World Codes\n')
     for n, k in enumerate([x for x in xmt_customs.keys() if x not in xmg_customs], start=1):
         custom.write(f'{n}. {k}: ')
         for x in xmt_customs[k]:
-            custom.write(f'<img src="{x.__str__()}" width="16"/>\n')
+            custom.write(f'<img src="{x.__str__()}"/>\n')
         custom.write('\n')
+    custom.write('\n')

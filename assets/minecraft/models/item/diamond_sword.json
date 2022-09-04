@@ -6,6 +6,8 @@
     "overrides": [
         {"predicate": {"custom_model_data":707101}, "model":"item/custom/zombie_sword"},
         {"predicate": {"custom_model_data":707102}, "model":"item/custom/ender_sword"},
-        {"predicate": {"custom_model_data":707105}, "model":"item/custom/steve_sword"}
+        {"predicate": {"custom_model_data":707105}, "model":"item/custom/steve_sword"},
+        {"predicate": {"custom_model_data":707107}, "model":"item/custom/evoker_sword"},
+        {"predicate": {"custom_model_data":707109}, "model":"item/custom/blaze_sword"}
     ]
 }
