@@ -4,7 +4,8 @@
         "layer0": "minecraft:item/diamond_sword"
     },
     "overrides": [
-        {"predicate": {"custom_model_data":707104}, "model":"item/swords/ender_sword"},
-        {"predicate": {"custom_model_data":707101}, "model":"item/swords/zombie_sword"}
+        {"predicate": {"custom_model_data":707101}, "model":"item/custom/zombie_sword"},
+        {"predicate": {"custom_model_data":707102}, "model":"item/custom/ender_sword"},
+        {"predicate": {"custom_model_data":707105}, "model":"item/custom/steve_sword"}
     ]
 }
