@@ -19,7 +19,7 @@ Skipped:
 
 
 Utility Items:
-00, 32, 33
+00
 
 ### Classes
 - Zombie:

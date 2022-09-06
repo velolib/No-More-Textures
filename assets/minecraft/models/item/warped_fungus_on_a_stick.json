@@ -5,6 +5,8 @@
     },
 
     "overrides": [
-        {"predicate": {"custom_model_data":707100}, "model":"item/fungus/ability"}
+        {"predicate": {"custom_model_data":707100}, "model":"item/fungus/ability"},
+        {"predicate": {"custom_model_data":707132}, "model":"item/fungus/ability"},
+        {"predicate": {"custom_model_data":707133}, "model":"item/fungus/ability"}
     ]
 }
